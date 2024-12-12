@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Batalla Naval - Juego</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="../img/calavera.png" alt="LOGO">
+        <h1>BATALLA NAVAL</h1>
+        <img src="../img/calavera.png" alt="LOGO">
+    </header>
+    <main class="contenedor-juego">
+        <section class="instrucciones-juego">
+            <h2>Tablero de Juego</h2>
+        </section>
+        <section class="tablero-juego">
+            <article class="tablero-jugador" id="tablero-jugador">
+                <h2>Tablero del jugador</h2>
+                <div id="rejillaJugador" class="grid"></div>
+            </article>
+            <div class="puntuacion-juego">
+                <h3>Tiempo del turno</h3>
+                <article class="reloj">00</article>
+                <h3 id="action"></h3>
+                <h2 id="result"></h2>
+                <article id="dibujo-final" class="hidden"></article>
+                <nav id="resumen" class="hidden">
+                    <button class="boton-resumen" onclick="location.href='./resumen.html'">Resumen</button>
+                </nav>
+            </div>
+            <article class="tablero-jugador" id="tablero-maquina">
+                <h2>Tablero de la Máquina</h2>
+                <div id="rejillaMaquina" class="grid"></div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Nadia Judith Argüello | Creative Commons Attribution 4.0 International (CC BY 4.0)
+    </footer>
+</body>
+
+</html>
